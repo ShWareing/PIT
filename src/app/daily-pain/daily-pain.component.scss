@@ -1,0 +1,45 @@
+.rate-card {
+    width: 42%;
+    margin-top: 30px;
+    margin-left: 10px; 
+    button {
+        background-color: purple;
+    }
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.pain-update {
+    font-style: italic;
+    font-size: 3vw;
+    display: flex;
+    justify-content: space-between; margin: 0;
+    span {
+        font-weight: 950;
+    }
+    mat-icon {
+        margin-top: 60px;
+    }
+}
+.pain-locator {
+    width: 35%;
+    margin-left: 500px;
+    
+}
+.pain-checker {
+   column-count: 3;
+   column-gap: 35px;
+    
+}
+.notes {
+    justify-content: flex;
+    padding: 30px;
+}
+.button {
+    width: 25vw;
+    height: 20vw;
+    font-size: 2vw;
+    background-color: blueviolet;
+    color: white;
+}
